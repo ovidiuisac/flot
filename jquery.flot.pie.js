@@ -496,6 +496,7 @@ More detail and specific examples can be found in the included HTML file.
 						target.append(html);
 
 						var label = target.children("#pieLabel" + index);
+						label.click(onClick);
 						var labelTop = (y - label.height() / 2);
 						var labelLeft = (x - label.width() / 2);
 
